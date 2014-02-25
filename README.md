@@ -23,3 +23,16 @@ $ sudo pip install virtualenv
 
 One of these will probably install virtualenv on your system. Maybe it’s even in your package manager. If you use Ubuntu, try:
 
+```
+$ sudo apt-get install python-virtualenv
+```
+
+Once you have the virtualenv installed, open up terminal (aka a shell) and create your own environment. You can create a project folder then a venv folder within that folder:
+
+```
+$ mkdir myproject
+$ cd myproject
+$ virtualenv venv
+New python executable in venv/bin/python
+Installing distribute............done.
+```
